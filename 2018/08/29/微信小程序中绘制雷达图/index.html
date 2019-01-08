@@ -7,13 +7,13 @@
 
 
 
-    <meta name="description" content="前言雷达图（Radar Chart），又可称为戴布拉图、蜘蛛网图（Spider Chart），是财务分析报表的一种。使用者能一目了然的了解各项指标的变动情形及其好坏趋向。本文介绍如何在微信小程序中实现雷达图绘制。 绘制背景首先我们需要绘制出雷达图后面的“蜘蛛网”。具体原理就是一层一层将多边形画出来，根据数据长度决定每一个点的位置和半径长度。 1234567891011121314151617181">
+    <meta name="description" content="前言雷达图（Radar Chart），又可称为戴布拉图、蜘蛛网图（Spider Chart），是财务分析报表的一种。使用者能一目了然的了解各项指标的变动情形及其好坏趋向。本文介绍如何在微信小程序中实现雷达图绘制。">
 <meta name="keywords" content="小程序,html,前端">
 <meta property="og:type" content="article">
 <meta property="og:title" content="微信小程序中绘制雷达图">
 <meta property="og:url" content="http://jane66.com/2018/08/29/微信小程序中绘制雷达图/index.html">
 <meta property="og:site_name" content="小熊猫的花园">
-<meta property="og:description" content="前言雷达图（Radar Chart），又可称为戴布拉图、蜘蛛网图（Spider Chart），是财务分析报表的一种。使用者能一目了然的了解各项指标的变动情形及其好坏趋向。本文介绍如何在微信小程序中实现雷达图绘制。 绘制背景首先我们需要绘制出雷达图后面的“蜘蛛网”。具体原理就是一层一层将多边形画出来，根据数据长度决定每一个点的位置和半径长度。 1234567891011121314151617181">
+<meta property="og:description" content="前言雷达图（Radar Chart），又可称为戴布拉图、蜘蛛网图（Spider Chart），是财务分析报表的一种。使用者能一目了然的了解各项指标的变动情形及其好坏趋向。本文介绍如何在微信小程序中实现雷达图绘制。">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/2641798-4cb2f61add473cd8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/2641798-482cb08a73db4b5c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
@@ -21,10 +21,10 @@
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/2641798-896f6d32eda04d07.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/2641798-cb22523fbd815021.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/2641798-d476058258f845d5.gif?imageMogr2/auto-orient/strip">
-<meta property="og:updated_time" content="2019-01-08T05:14:40.497Z">
+<meta property="og:updated_time" content="2019-01-08T05:32:48.949Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="微信小程序中绘制雷达图">
-<meta name="twitter:description" content="前言雷达图（Radar Chart），又可称为戴布拉图、蜘蛛网图（Spider Chart），是财务分析报表的一种。使用者能一目了然的了解各项指标的变动情形及其好坏趋向。本文介绍如何在微信小程序中实现雷达图绘制。 绘制背景首先我们需要绘制出雷达图后面的“蜘蛛网”。具体原理就是一层一层将多边形画出来，根据数据长度决定每一个点的位置和半径长度。 1234567891011121314151617181">
+<meta name="twitter:description" content="前言雷达图（Radar Chart），又可称为戴布拉图、蜘蛛网图（Spider Chart），是财务分析报表的一种。使用者能一目了然的了解各项指标的变动情形及其好坏趋向。本文介绍如何在微信小程序中实现雷达图绘制。">
 <meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/2641798-4cb2f61add473cd8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 
 
@@ -157,7 +157,7 @@
                 <span class="level-item has-text-grey">
                     
                     
-                    9 分钟 读完 (大约 1402 个字)
+                    9 分钟 读完 (大约 1403 个字)
                 </span>
                 
             </div>
@@ -169,7 +169,9 @@
             
         </h1>
         <div class="content">
-            <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>雷达图（Radar Chart），又可称为戴布拉图、蜘蛛网图（Spider Chart），是财务分析报表的一种。使用者能一目了然的了解各项指标的变动情形及其好坏趋向。<br>本文介绍如何在微信小程序中实现雷达图绘制。<br><img src="https://upload-images.jianshu.io/upload_images/2641798-4cb2f61add473cd8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="雷达图"></p>
+            <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>雷达图（Radar Chart），又可称为戴布拉图、蜘蛛网图（Spider Chart），是财务分析报表的一种。使用者能一目了然的了解各项指标的变动情形及其好坏趋向。<br>本文介绍如何在微信小程序中实现雷达图绘制。</p>
+<a id="more"></a>
+<p><img src="https://upload-images.jianshu.io/upload_images/2641798-4cb2f61add473cd8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="雷达图"></p>
 <h2 id="绘制背景"><a href="#绘制背景" class="headerlink" title="绘制背景"></a>绘制背景</h2><p>首先我们需要绘制出雷达图后面的“蜘蛛网”。具体原理就是一层一层将多边形画出来，根据数据长度决定每一个点的位置和半径长度。</p>
 <figure class="highlight plain hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">var angle = Math.PI * 2 / length;</span><br><span class="line">for (var layer = 5; layer &gt; 0; layer--) &#123;</span><br><span class="line">        context.beginPath();</span><br><span class="line">        context.setGlobalAlpha(1);</span><br><span class="line">        context.setStrokeStyle(&quot;#D3D3D3&quot;);</span><br><span class="line">        if (layer % 2 != 0) &#123;</span><br><span class="line">          context.setFillStyle(&quot;white&quot;);</span><br><span class="line">        &#125; else &#123;</span><br><span class="line">          context.setFillStyle(&quot;#F5F5F5&quot;);</span><br><span class="line">        &#125;</span><br><span class="line">        var currentRad = layer / 5 * radius;</span><br><span class="line">        context.moveTo(center.x, center.y - currentRad);</span><br><span class="line">        var currentAngle = -Math.PI / 2;</span><br><span class="line">        for (var i = 0; i &lt; length; i++) &#123;</span><br><span class="line">          context.lineTo(center.x + currentRad * Math.cos(currentAngle), center.y + currentRad * Math.sin(currentAngle));</span><br><span class="line">          currentAngle += angle;</span><br><span class="line">        &#125;</span><br><span class="line">        context.fill();</span><br><span class="line">        context.closePath();</span><br><span class="line">        context.stroke();</span><br><span class="line">      &#125;</span><br></pre></td></tr></table></figure>
 <p>如代码所示，<code>angle</code>是根据数据长度决定的，这里为了好看，一共画五层，并且交替涂抹颜色。下图是<code>length=6</code>的效果：<br><img src="https://upload-images.jianshu.io/upload_images/2641798-482cb08a73db4b5c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="蜘蛛网"></p>
@@ -279,6 +281,7 @@
 
     </div>
 </div>
+
 </div>
                 
 

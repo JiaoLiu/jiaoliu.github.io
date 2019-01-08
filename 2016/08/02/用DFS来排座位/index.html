@@ -16,7 +16,7 @@
 <meta property="og:description" content="DFS（Depth-First-Search）深度优先算法，是搜索算法的一种。是一种在开发爬虫早期使用较多的方法。它的思想是从一个顶点 V0 开始，沿着一条路一直走到底，如果发现不能到达目标解，那就返回到上一个节点，然后从另一条路开始走到底，这种尽量往深处走的概念即是深度优先的概念。 深度优先搜索是图论中的经典算法，利用深度优先搜索算法可以产生目标图的相应拓扑排序表，利用拓扑排序表可以方便的解决很">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2641798-5ed96443e4c08337.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2019-01-08T03:48:57.921Z">
+<meta property="og:updated_time" content="2019-01-08T05:32:46.651Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="用DFS来排座位">
 <meta name="twitter:description" content="DFS（Depth-First-Search）深度优先算法，是搜索算法的一种。是一种在开发爬虫早期使用较多的方法。它的思想是从一个顶点 V0 开始，沿着一条路一直走到底，如果发现不能到达目标解，那就返回到上一个节点，然后从另一条路开始走到底，这种尽量往深处走的概念即是深度优先的概念。 深度优先搜索是图论中的经典算法，利用深度优先搜索算法可以产生目标图的相应拓扑排序表，利用拓扑排序表可以方便的解决很">
@@ -148,7 +148,7 @@
                 <span class="level-item has-text-grey">
                     
                     
-                    14 分钟 读完 (大约 2050 个字)
+                    14 分钟 读完 (大约 2051 个字)
                 </span>
                 
             </div>
@@ -162,6 +162,7 @@
         <div class="content">
             <p>DFS（Depth-First-Search）深度优先算法，是搜索算法的一种。是一种在开发爬虫早期使用较多的方法。它的思想是从一个顶点 V0 开始，沿着一条路一直走到底，如果发现不能到达目标解，那就返回到上一个节点，然后从另一条路开始走到底，这种尽量往深处走的概念即是深度优先的概念。</p>
 <p>深度优先搜索是图论中的经典算法，利用深度优先搜索算法可以产生目标图的相应拓扑排序表，利用拓扑排序表可以方便的解决很多相关的图论问题，如最大路径问题等等。</p>
+<a id="more"></a>
 <p><img src="http://upload-images.jianshu.io/upload_images/2641798-5ed96443e4c08337.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="DFS"></p>
 <p>下面以一个具体问题来看 DFS 的实现与实用。（问题来源[GCJ2016-1A]BFFs）</p>
 <p><strong>Problem</strong><br>You are a teacher at the brand new Little Coders kindergarten. You have<strong>N</strong>kids in your class, and each one has a different student ID number from 1 through<strong>N</strong>. Every kid in your class has a single best friend forever (BFF), and you know who that BFF is for each kid. BFFs are not necessarily reciprocal – that is, B being A’s BFF does not imply that A is B’s BFF.<br>Your lesson plan for tomorrow includes an activity in which the participants must sit in a circle. You want to make the activity as successful as possible by building the largest possible circle of kids such that each kid in the circle is sitting directly next to their BFF, either to the left or to the right. Any kids not in the circle will watch the activity without participating.<br>What is the greatest number of kids that can be in the circle?<br><strong>Input</strong><br>The first line of the input gives the number of test cases,<strong>T</strong>.<strong>T</strong>test cases follow. Each test case consists of two lines. The first line of a test case contains a single integer<strong>N</strong>, the total number of kids in the class. The second line of a test case contains<strong>N</strong>integers<strong>F1</strong>,<strong>F2</strong>, …,<strong>FN</strong>, where<strong>Fi</strong>is the student ID number of the BFF of the kid with student ID i.<br><strong>Output</strong><br>For each test case, output one line containing “Case #x: y”, where x is the test case number (starting from 1) and y is the maximum number of kids in the group that can be arranged in a circle such that each kid in the circle is sitting next to his or her BFF.<br><strong>Limits</strong><br>1 ≤<strong>T</strong>≤ 100.<br>1 ≤<strong>Fi</strong>≤<strong>N</strong>, for all i.<br><strong>Fi</strong>≠ i, for all i. (No kid is their own BFF.)<br><strong>Small dataset</strong><br>3 ≤<strong>N</strong>≤ 10.<br><strong>Large dataset</strong><br>3 ≤<strong>N</strong>≤ 1000.<br><strong>Sample</strong></p>
@@ -277,6 +278,7 @@
 
     </div>
 </div>
+
 </div>
                 
 
