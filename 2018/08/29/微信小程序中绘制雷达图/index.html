@@ -21,7 +21,7 @@
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/2641798-896f6d32eda04d07.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/2641798-cb22523fbd815021.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/2641798-d476058258f845d5.gif?imageMogr2/auto-orient/strip">
-<meta property="og:updated_time" content="2019-01-08T03:48:39.261Z">
+<meta property="og:updated_time" content="2019-01-08T05:14:40.497Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="微信小程序中绘制雷达图">
 <meta name="twitter:description" content="前言雷达图（Radar Chart），又可称为戴布拉图、蜘蛛网图（Spider Chart），是财务分析报表的一种。使用者能一目了然的了解各项指标的变动情形及其好坏趋向。本文介绍如何在微信小程序中实现雷达图绘制。 绘制背景首先我们需要绘制出雷达图后面的“蜘蛛网”。具体原理就是一层一层将多边形画出来，根据数据长度决定每一个点的位置和半径长度。 1234567891011121314151617181">
@@ -117,6 +117,10 @@
             
             <div class="navbar-end">
                 
+                
+                <a class="navbar-item is-hidden-tablet catalogue" title="目录" href="javascript:;">
+                    <i class="fas fa-list-ul"></i>
+                </a>
                 
                 
                 <a class="navbar-item search" title="搜索" href="javascript:;">
@@ -367,6 +371,45 @@
 </div>
     
         
+<div class="card widget" id="toc">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                目录
+            </h3>
+            <ul class="menu-list"><li>
+        <a class="is-flex" href="#前言">
+        <span class="has-mr-6">1</span>
+        <span>前言</span>
+        </a></li><li>
+        <a class="is-flex" href="#绘制背景">
+        <span class="has-mr-6">2</span>
+        <span>绘制背景</span>
+        </a></li><li>
+        <a class="is-flex" href="#绘制轴">
+        <span class="has-mr-6">3</span>
+        <span>绘制轴</span>
+        </a></li><li>
+        <a class="is-flex" href="#绘制指标">
+        <span class="has-mr-6">4</span>
+        <span>绘制指标</span>
+        </a></li><li>
+        <a class="is-flex" href="#绘制数据">
+        <span class="has-mr-6">5</span>
+        <span>绘制数据</span>
+        </a></li><li>
+        <a class="is-flex" href="#添加绘制动画">
+        <span class="has-mr-6">6</span>
+        <span>添加绘制动画</span>
+        </a></li><li>
+        <a class="is-flex" href="#结语">
+        <span class="has-mr-6">7</span>
+        <span>结语</span>
+        </a></li></ul>
+        </div>
+    </div>
+</div>
+
     
         
 <div class="card widget">
