@@ -138,16 +138,16 @@
     <link href="http://jane66.com/2018/09/21/%E7%99%BE%E5%A4%A9party/"/>
     <id>http://jane66.com/2018/09/21/百天party/</id>
     <published>2018-09-21T09:52:15.000Z</published>
-    <updated>2019-01-08T10:01:05.385Z</updated>
+    <updated>2019-01-08T10:24:21.204Z</updated>
     
-    <content type="html"><![CDATA[<p>今天小熊猫和哥哥、姐姐、弟弟、妹妹一起 party go 😄：</p><iframe height="500" width="500" src="/gallary/v001.mp4" frameborder="0" allowfullscreen><br></iframe>]]></content>
+    <content type="html"><![CDATA[<p>今天小熊猫和哥哥、姐姐、弟弟、妹妹一起 party go 😄：</p><iframe scrolling="no" width="100%" height="100%" onload="iFrameHeight()" src="/gallary/v001.mp4" frameborder="0" allowfullscreen><br></iframe>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;今天小熊猫和哥哥、姐姐、弟弟、妹妹一起 party go 😄：&lt;/p&gt;
-&lt;iframe height=&quot;500&quot; width=&quot;500&quot; src=&quot;/gallary/v001.mp4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;br&gt;&lt;/ifram
+&lt;iframe scrolling=&quot;no&quot; width=&quot;100%&quot; height=&quot;100%&quot; onload=&quot;iFrameHeight()&quot; src=&quot;/gallary/v001.mp4&quot; fr
       
     
     </summary>
