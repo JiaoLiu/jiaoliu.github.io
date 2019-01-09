@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jane66.com/"/>
-  <updated>2019-01-09T05:29:55.919Z</updated>
+  <updated>2019-01-09T05:51:45.753Z</updated>
   <id>http://jane66.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的第一个证书</title>
+    <link href="http://jane66.com/2019/01/08/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E8%AF%81%E4%B9%A6/"/>
+    <id>http://jane66.com/2019/01/08/我的第一个证书/</id>
+    <published>2019-01-08T05:44:49.000Z</published>
+    <updated>2019-01-09T05:51:45.753Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/gallary/IMG_0033.jpg" alt=""></p><p>今天潜水 🏊‍♀️ 成功，获得的人生第一个证书 😄。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;/gallary/IMG_0033.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;今天潜水 🏊‍♀️ 成功，获得的人生第一个证书 😄。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="生活" scheme="http://jane66.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="小熊猫" scheme="http://jane66.com/categories/%E7%94%9F%E6%B4%BB/%E5%B0%8F%E7%86%8A%E7%8C%AB/"/>
+    
+    
+      <category term="小熊猫" scheme="http://jane66.com/tags/%E5%B0%8F%E7%86%8A%E7%8C%AB/"/>
+    
+  </entry>
   
   <entry>
     <title>又吃辅食了啦😊</title>
